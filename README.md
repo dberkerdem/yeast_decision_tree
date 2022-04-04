@@ -26,7 +26,7 @@ An analysis on significance of inputs are performed in Matlab by using the scrip
 ![Input Significance](./Figures/3.7.png)
 ### Confusion Matrix
 Lastly, confusion matrix is constructed in order to find out the accuracies of the results. This matrix is constructed by using Matlab script “confusionmat”.\
-![Confusion Matrix](./Figures/3.8.png)\
+![Confusion Matrix](./Figures/3.8.png)
 ## Conclusion
 As conclusion, even though number of data are relatively low, they fit into a model and give meaningful results. Moreover, 6 input out of 41 are realized to be very important compared to the rest, which can be observed in figure 3.7. Time is the most important input since the collected data are non-steady state and samples are collected in batch mode of operation.
 \By considering figure 3.8., best conditions to obtain high biomass are, Fermenter speed must be greater than 192 rpm, Time must be greater than 38 hours Strain type should not be SM7, otherwise time must be greater than 57 hours. Resulting biomass will be greater than 18.4 g/L, which is categorized as high.
