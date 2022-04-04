@@ -12,7 +12,7 @@ Before proceeding to MATLAB results, inputs are analyzed through MS Excel and mo
 ![Fermenter Volume vs. Biomass](./Figures/3.2.png)\
 ![Strain Type vs. Biomass](./Figures/3.3.png)\
 Outputs were also analyzed and shown below.\
-![Pre-Analysis of Outputs](./Figures/3.4.png)\
+![Pre-Analysis of Outputs](./Figures/3.4.png)
 ### Decision Tree Model
 2/3 of the collected data are exercised in data training, whereas rest is exercised in testing. Resulting tree had 27 branches. However, after analyzing the error vs testing and training graph, optimum tree is decided to have 23 branches.\
 ![Error vs Test and Train](./Figures/3.5.png)\
@@ -20,10 +20,10 @@ The necessary condition to decide optimum tree is to identify minimum error in t
 \23 branches are the optimum number of leaves in tree model, which can be seen from Figure 3.5.
 \Optimum tree is calculated by using the Matlab script “YeastDecTree” and shown below.
 ![Optimum Decision Tree](./Figures/3.6.png)\
-It can be observed that, expected key inputs appeared in decision tree alongside with time.\
+It can be observed that, expected key inputs appeared in decision tree alongside with time.
 ### Input Significance
 An analysis on significance of inputs are performed in Matlab by using the script “inputimportance” and shown below.\
-![Input Significance](./Figures/3.7.png)\
+![Input Significance](./Figures/3.7.png)
 ### Confusion Matrix
 Lastly, confusion matrix is constructed in order to find out the accuracies of the results. This matrix is constructed by using Matlab script “confusionmat”.\
 ![Confusion Matrix](./Figures/3.8.png)\
